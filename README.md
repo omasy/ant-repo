@@ -12,7 +12,9 @@ ANT REPO UTILITY CLASSES:
 8. TextHandle: Utilty class capable of converting html, pdf, xml, and docx document to plain text, extends HtmltoPlainText, itext, docx4j and w3c.dom and sax xml parsers
 
 USAGE:
-import ant-repo.*;
+import system.xmlprocess.*;
+
+Make sure you include the .jar file in your classpath. If your developing with eclipse include it in you reference library.
 
 DEPENDENCIES:
 1. Jtidy, Docx4j, xhtmlrenderer, itext.2.0, pdfbox
