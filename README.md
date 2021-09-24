@@ -1,7 +1,7 @@
 # ant-repo
 Useful Java Classes in one java archive .jar library. Download and enjoy top utility class for network download, file streams, jsoup projects, html manipulation class and more
 
-ANT REPO UTILITY CLASSES:
+#### ANT REPO UTILITY CLASSES:
 1. AntResource: for creating look folder where application user created files will be saved for easy retreival for the app use and user accessibility.
 2. DjadeConverter: Repo class capable of converting html to xhtml, xhtml to pdf, xhtml to docx. built on top of Jtidy, Docx4j, xhtmlrenderer, and itext.
 3. DjadeTmp: Utility class capable of downloading webpage into a tmp folder for easy retrieval for use in other applications.
@@ -11,11 +11,11 @@ ANT REPO UTILITY CLASSES:
 7. SearchOn: Repo class extending search capacity of KeywordHandle modifies hit counts and rates search keyword. Text manipulation and many more.
 8. TextHandle: Utilty class capable of converting html, pdf, xml, and docx document to plain text, extends HtmltoPlainText, itext, docx4j and w3c.dom and sax xml parsers
 
-USAGE:
+##### USAGE:
 ```import system.xmlprocess.*;```
 
 Make sure you include the .jar file in your classpath. If your developing with eclipse include it in you reference library.
 
-DEPENDENCIES:
+##### DEPENDENCIES:
 1. Jtidy, Docx4j, xhtmlrenderer, itext.2.0, pdfbox
 2. w3c.dom and xml parsers.
