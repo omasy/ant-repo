@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting id="1">
+<email id="2" query="email,Email,mail" val-email="yes">Email Feedback</email>
+<engine_1 id="3" query="engine_1,Engine_1,Search_1" val-engine_1="https://www.google.com/search?q=">Search Engine 1</engine_1>
+<engine_2 id="4" query="engine_2,Engine_2,Search_2" val-engine_2="https://www.bing.com/search?q=">Search Engine 2</engine_2>
+<engine_3 id="5" query="engine_3,Engine_3,Search_3" val-engine_3="https://search.yahoo.com/search?p=">Search Engine 3</engine_3>
+<agent_1 id="6" query="agent_1,Agent_1" val-agent_1="Mozilla/5.0(compactible;Googlebot/2.1;+http://www.google.com/bot.html)">Search Agent</agent_1>
+<agent_2 id="7" query="agent_2,Agent_2" val-agent_2="Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:25.0) Gecko/20100101 Firefox/25.0">Search Agent</agent_2>
+<meta_1 id="8" query="meta_1,Meta_1" val-meta_1="div[class=g]{title:h3.r&gt;a(text)-url:h3.r&gt;a(attr~href)-desc:span[class=st](text),%ua,+,num}">Engine Meta Data 1</meta_1>
+<meta_2 id="9" query="meta_2,Meta_2" val-meta_2="li[class=b_algo]{title:h2>a>strong(text)-url:h2>a(attr~href)-desc:p(text),%ua,+,count}">Engine Meta Data 2</meta_2>
+<meta_3 id="10" query="meta_3,Meta_3" val-meta_3=".algo{title:h3.title>a>b(text)-url:h3.title>a(attr~href)-desc:div.compText>p(text),%ua,+,n}">Engine Meta Data 3</meta_3>
+<num id="11" query="num,number" val-num="100">Search Number</num>
+<words id="12" query="word,words,Word" val-words="600">Words Limit</words>
+<rate id="13" query="rate,Rating" val-rate="30-&gt;50-&gt;50-&gt;55-&gt;30">Search Rate</rate>
+<cmd id="14" query="cmd,CMD" val-cmd="yes">Search Command</cmd>
+<fetch id="15" query="fetch,fetching" val-fetch="jsd">Download Type</fetch>
+<cksinitiator id="16" query="cki,ctrl,cks" val-cksinitiator="5">Control Key Search</cksinitiator>
+<retry id="17" query="try,retry,again" val-retry="5">Connection Retry</retry>
+<timeout id="18" query="timeout,time" val-timeout="50000">Parsing Timeout</timeout>
+</setting>
